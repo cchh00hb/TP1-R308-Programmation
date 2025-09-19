@@ -2,7 +2,7 @@ import math
 from typing import Self
 
 class Point:
-    def __init__(self, x : float = 0.0, y : float = 0.0) :
+    def __init__(self, x= 0.0, y=0.0):
         self.__x = x
         self.__y = y
 
